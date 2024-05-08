@@ -1,17 +1,19 @@
 const PreviewPage = ()=>{
+     
+
     return(
 
         <>
-        <section className="flex border border-green-0 ">
+        <section className="flex p-3 border-green-0 shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-1px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset]">
             {/* Left Side */}
-            <section className="border w-2/4 border-yellow-0 ">
-              <div className="w-5/6 flex flex-col border gap-5 p-5 border-blue-0 ">
-                <div className="border mb-8">
+            <section className="  w-2.5/3 border-yellow-0 ">
+              <div className="w-4/4 flex flex-col   gap-5 p-5 border-blue-0 ">
+                <div className="  mb-8">
                   <h1 className="text-3xl font-semibold">Your Name</h1>
                   <p className="text-sm">Dec</p>
                 </div>
 
-                <div className="border">
+                <div className=" ">
                   <div>
                     <h1 className="text-md font-bold text-blue-500">
                       EXPERIENCE
@@ -35,7 +37,7 @@ const PreviewPage = ()=>{
                 </div>
                 {/* */}
 
-                <div className="border ">
+                <div className="  ">
                   <div>
                     <h1 className="text-md font-bold text-blue-500">
                       EDUCATION
@@ -58,7 +60,7 @@ const PreviewPage = ()=>{
                   </div>
                 </div>
                 {/*  */}
-                <div className="border">
+                <div className=" ">
                   <div>
                     <h1 className="text-md font-bold text-blue-500">
                       PROJECTS
@@ -87,9 +89,9 @@ const PreviewPage = ()=>{
               </div>
             </section>
 
-            <section className="border border-red-0 w-3/2">
+            <section className="border-red-0 w-2/3">
               {/* Right Side */}
-              <div className="border border-green-800 flex flex-col  gap-5 p-5">
+              <div className=" border-green-0 flex flex-col  gap-5 p-5">
                 <div className="text-md">
                   <p className="">Address Line 1 123 Your Street </p>
                   <p>Address Line 1 Your City, ST 12345</p>
@@ -99,7 +101,7 @@ const PreviewPage = ()=>{
                   </p>
                 </div>
 
-                <div className="w-72 border">
+                <div className="w-72 ">
                   <h1 className="text-md font-bold text-blue-500">AWARDS</h1>
                   <p className=" text-wrap">
                     Lorem ipsum dolor sit amet. Consectetuer adipiscing elit.
@@ -107,7 +109,7 @@ const PreviewPage = ()=>{
                     magna aliquam erat volutpat.
                   </p>
                 </div>
-                <div className="w-72 border">
+                <div className="w-72  ">
                   <h1 className="text-md font-bold text-blue-500">
                     CERTIFICATE
                   </h1>
@@ -117,14 +119,14 @@ const PreviewPage = ()=>{
                     magna aliquam erat volutpat.
                   </p>
                 </div>
-                <div className="w-72 border">
+                <div className="w-72  ">
                   <h1 className="text-md font-bold text-blue-500">LANGUAGES</h1>
                   <p className=" text-wrap">
                     Lorem ipsum dolor sit amet. Consectetuer adipiscing elit.
                     Sed diam nonummy nibh euismod tincidunt.
                   </p>
                 </div>
-                <div className="w-72 border">
+                <div className="w-72  ">
                   <h1 className="text-md font-bold text-blue-500">PROJECTS</h1>
                   <p className=" text-wrap">
                     Lorem ipsum dolor sit amet. Consectetuer adipiscing elit.
@@ -135,6 +137,12 @@ const PreviewPage = ()=>{
               </div>
             </section>
         </section>
+        <button
+          type="submit"
+          className="m-4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Download 
+        </button>
         </>
     );
 }
